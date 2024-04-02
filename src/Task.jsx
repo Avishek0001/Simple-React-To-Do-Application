@@ -7,7 +7,11 @@ function Task({tasks,onDelete}){
 
                 <li className="list-field" key={task.id}>
                  <h3>{task.title}</h3> 
-                    <button className="button-field" onClick={()=>onDelete(task.id)}>delete</button>
+                    <button 
+                    className="button-field" 
+                    onClick={()=>onDelete(task.id)}>
+                    Delete
+                    </button>
                 </li>
                
                 )

@@ -11,12 +11,12 @@ const TaskInput = () =>{
         // This hook is used to dispacth actions from the Redux store to get the reference values from the reducer functions
 
 
-    function handleChange(e){
+    const handleChange = (e)=> {
         e.preventDefault();
         setTitle(e.target.value)
     }
 
-    function handleSubmit(){
+    const handleSubmit = ()=>{ 
         if(title.trim()){
             dispatch(addTask({id:Date.now(),title}))//It is used basically for getting unique identifiers
             setTitle('')
@@ -38,7 +38,9 @@ const TaskInput = () =>{
             placeholder="Add Your Task Here..." 
             />
             
-            <button onClick={handleSubmit} className="button-field">Add</button>
+            <button 
+            onClick={handleSubmit} 
+            className="button-field">Add</button>
             </div>
         
         </>

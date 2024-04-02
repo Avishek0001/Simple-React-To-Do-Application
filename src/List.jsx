@@ -4,13 +4,13 @@ import { deleteTask } from "./TaskSlice";
 import Task from "./Task";
 
 
-function TaskList() {
+const TaskList = () => {
     const tasks = useSelector(state => state.tasks.tasks)
     //This Hooks extract the tasks array from the store state and then render the list of tasks based on this data.
     const dispatch = useDispatch();
     // This hook is uesd to dispacth actions from the Redux store to get the reference values from the reducer functions
 
-    function handleDelete(id){
+    const handleDelete = (id) => {
         dispatch(deleteTask( id))
         console.log(id);
     }
