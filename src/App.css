@@ -1,0 +1,102 @@
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: #eeeeeebb;
+}
+
+header{
+  position: relative;
+  width: 100%;
+  background-color: #ebce2c;
+  height: 40px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);  
+}
+
+
+header h1 {
+  position: absolute;
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+  font-size: 1.75em;
+  line-height: 1.1;
+  top: 1%;
+}
+
+.input-area{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.input-field{
+  width: 600px;
+  height: 40px;
+  margin-right: 30px;
+  background-color: #fff ;  
+  color: #000;
+  border-radius: 20px;
+  box-shadow: 0 5px 5px #ccc;
+  padding-left: 20px;
+  font-size: large;
+}
+
+
+.button-field{
+  width: 70px;
+  height: 40px;
+  padding: 0;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 2px solid #000;
+  box-shadow: 0 5px 5px #ccc;
+  color: #000;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.button-field:hover{
+  background-color: #ebce2c;
+  color: #fff;
+  border: 1px solid #ebce2c;
+
+}
+.main-container{ 
+  
+  width: auto;
+  padding-right: 100px;
+  max-width: fit-content;
+  margin-top: 50px;  
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.main-container h2{
+  font-size:x-large;
+  font-family: "McLaren", cursive;
+  
+}
+
+.list-field{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 5px 5px #ccc;
+  width: 500px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  
+}
+
