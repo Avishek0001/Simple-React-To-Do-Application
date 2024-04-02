@@ -1,4 +1,5 @@
 import React from "react";
+import DeleteIcon from '@mui/icons-material/Delete';
 
 function Task({tasks,onDelete}){
     return(
@@ -10,7 +11,10 @@ function Task({tasks,onDelete}){
                     <button 
                     className="button-field" 
                     onClick={()=>onDelete(task.id)}>
-                    Delete
+                    <span>Delete</span>
+                    <span>
+                        <DeleteIcon/>
+                    </span>
                     </button>
                 </li>
                
