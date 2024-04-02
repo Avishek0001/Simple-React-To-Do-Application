@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
-import { addTask } from "./TaskSlice";
+import { addTask } from "./redux/TaskSlice";
 import Button from 'react-bootstrap/Button';
 import "./App.css"
 

@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { deleteTask } from "./TaskSlice";
+import { deleteTask } from "./redux/TaskSlice";
 import Task from "./Task";
 
 
